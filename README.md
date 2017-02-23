@@ -1,1 +1,1 @@
-# CS50-2017
+# studenthack
