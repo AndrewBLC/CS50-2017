@@ -5,7 +5,7 @@ function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     // var myLatlng = new google.maps.LatLng(40.71751, -73.990922);
-    var myLatlng = new google.maps.LatLng(53.475188,-2.233530,21);
+    var myLatlng = new google.maps.LatLng(53.4727158,-2.3001782,21);
     // 39.399872
     // -8.224454
     // Manchester
@@ -33,7 +33,7 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
    
     // The Landing MediaCityUk
-    var latlng = new google.maps.LatLng(53.475188,-2.233530,21);
+    var latlng = new google.maps.LatLng(53.4727158,-2.3001782,21);
     var marker = new google.maps.Marker({
         position: latlng,
         map: map,

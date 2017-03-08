@@ -229,7 +229,7 @@ theme = "hugo-elate-theme"
     enable = true
     map = true
     title = "Location"
-    description = "Renold Building, Altrincham Street, M1 7JA, Manchester, UK"
+    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
 
   # Counters section
   [params.counters]
