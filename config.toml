@@ -53,7 +53,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "Who teaches CS50?"
-      description = "The course is taught by professor David J. Malan (link to https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)) malan@harvard.edu"
+      description = "The course is taught by professor <a href=\"https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)\" David J. Malan </a><br>malan@harvard.edu"
       icon = "icon-book-open"
 
     [[params.faq.item]]
@@ -73,7 +73,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "Are tickets free?"
-      description = "Tickets are free for Manchester students. For everyone else, the ticket costs £50 and it includes an awesome \"I took CS50\" t-shirt. Get you ticket now! (link to https://www.picatic.com/cs50-hackathon-manchester)"
+      description = "Tickets are free for Manchester students. For everyone else, the ticket costs £50 and it includes an awesome \"I took CS50\" t-shirt. <a href=\"https://www.picatic.com/cs50-hackathon-manchester\">Get you ticket now!</a>"
       icon = "icon-wallet"
 
     [[params.faq.item]]
