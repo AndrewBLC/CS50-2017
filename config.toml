@@ -53,7 +53,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "Who teaches CS50?"
-      description = "The course is taught by professor <a href=\"https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)\" David J. Malan </a><br>malan@harvard.edu"
+      description = "The course is taught by professor <a href=\"https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)\"> David J. Malan </a><br>malan@harvard.edu"
       icon = "icon-book-open"
 
     [[params.faq.item]]
