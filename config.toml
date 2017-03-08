@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "CS50 Manchester"
   description = "CS50 Manchester 2017 - a hackathon in association with Harvad 25 March 2017"
-  email = "hristeaanais@gmail.com"
+  email = "cristian@hacksoc.com"
   # Navigation
   [params.navigation]
     brand = "CS50 Manchester"
