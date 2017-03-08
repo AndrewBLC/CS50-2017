@@ -46,40 +46,45 @@ theme = "hugo-elate-theme"
     title = "FAQ"
 
     [[params.faq.item]]
-      title = "Who can get a ticket?"
-      description = "All enrolled students over 18 and those who graduated last year."
+      title = "What is CS50?"
+      description = "CS50 is Harvard and Yale Uniersities' introduction to computer science for concentrators and non-concentrators alike, with or without prior programming experience."
       icon = "icon-graduation"
 
 
     [[params.faq.item]]
+      title = "Who teaches CS50?"
+      description = "The course is taught by professor David J. Malan (link to https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)) malan@harvard.edu"
+      icon = "icon-book-open"
+
+    [[params.faq.item]]
+      title = "What is a CS50 Hackathon?"
+      description = "It's a 5-hour coding session which allows participants to go through the course while having the opportunity to ask questions directly to David J. Malan and CS50's staff. They will also lead a number of walkthroughs and/or seminars throughout the eve.​"
+      icon = "icon-calculator"
+
+    [[params.faq.item]]
+      title = "I haven’t coded much. Should I come?"
+      description = "Absolutely! The course is designed for people who have no prior experience with programming. The hackathon will be the best opportunity to start the course and ask as many questions as possible directly to CS50's staff members. You’ll also get the chance to meet other hackers and learn with and from each other."
+      icon = "icon-user-follow"
+
+    [[params.faq.item]]
+      title = "Who can get a ticket?"
+      description = "Literally everyone! The hackathon assumes no prior experience and is suitable for anyone who wants to learn computer science. "
+      icon = "icon-globe-alt"
+
+    [[params.faq.item]]
       title = "Are tickets free?"
-      description = "Only for students from Manchester. Otherwise, they cost £50... Including a t-shirt ;)"
+      description = "Tickets are free for Manchester students. For everyone else, the ticket costs £50 and it includes an awesome \"I took CS50\" t-shirt. Get you ticket now! (link to https://www.picatic.com/cs50-hackathon-manchester)"
       icon = "icon-wallet"
 
     [[params.faq.item]]
-      title = "What if I study outside the UK?"
-      description = "You are still welcome to join us! However, we cannot offer travel scholarships."
-      icon = "icon-plane"
-
-    [[params.faq.item]]
-      title = "I haven't coded much. Should I come?"
-      description = "Hackathons are for beginners. This one in particular. The CS50 course at Harvard is meant for people with little to no prior experience. You'll get the chance to meet other hackers and learn with and from each other. And also, the Harvard team will be there to assist you."
-      icon = "icon-briefcase"
-
-    [[params.faq.item]]
       title = "What can I expect from CS50?"
-      description = "The CS50 Hackathon is an epic all-nighter during which you can take your first steps towards becoming a programmer. You can definetly expect to learn A LOT by coming here."
-      icon = "icon-magic-wand"
+      description = "The CS50 Hackathon is an epic 5-hour event during which you can take your first steps towards becoming a programmer. You can definetly expect to learn A LOT by coming here."
+      icon = "icon-magnifier"
 
     [[params.faq.item]]
       title = "What should I bring?"
-      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag. Oh, and don't forget your enthusiasm! We are going to provide you with all the food, drinks, sleeping areas and swag that you will need."
-      icon = "icon-basket-loaded"
-
-    [[params.faq.item]]
-      title = "Who owns my IP/code/idea?"
-      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."
-      icon = "icon-bulb"
+      description = "Bring your laptop, phone, chargers and adaptors. Oh, and don’t forget your enthusiasm! We are going to provide you with all the food, drinks and snacks."
+      icon = "icon-briefcase"
 
   # Schedule section
   [params.schedule]
