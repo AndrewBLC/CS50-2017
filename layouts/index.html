@@ -11,6 +11,10 @@
         {{ partial "nav.html" .}}
         {{ partial "hero.html" .}}
 
+	{{ if .Site.Params.video.enable }}
+        	{{ partial "video.html" .}}
+        {{ end }}
+
 	{{ if .Site.Params.faq.enable }}
         	{{ partial "faq.html" .}}
 		{{ end }}
@@ -33,10 +37,6 @@
 
     {{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
-        {{ end }}
-
-	{{ if .Site.Params.video.enable }}
-        	{{ partial "video.html" .}}
         {{ end }}
 
 	{{ if .Site.Params.footer.enable }}

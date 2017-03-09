@@ -16,6 +16,10 @@
 
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
 
+                    {{ if .Site.Params.video.enable }}
+                    <li><a href="#" data-nav-section="video"><span>{{ with .Site.Params.navigation.video }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
+
                     {{ if .Site.Params.faq.enable }}
                     <li><a href="#" data-nav-section="faq"><span>{{ with .Site.Params.navigation.faq }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ end }}
@@ -34,10 +38,6 @@
 
                     {{ if .Site.Params.location.enable }}
                     <li><a href="#" data-nav-section="location"><span>{{ with .Site.Params.navigation.location }}{{ . | markdownify }}{{ end }}</span></a></li>
-                    {{ end }}
-
-                    {{ if .Site.Params.video.enable }}
-                    <li><a href="#" data-nav-section="video"><span>{{ with .Site.Params.navigation.video }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}
