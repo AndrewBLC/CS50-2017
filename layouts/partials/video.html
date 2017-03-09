@@ -1,0 +1,16 @@
+	<section id="fh5co-video" data-section="video">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with .Site.Params.video.title }}{{ . | markdownify }}{{ end }}</h2>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+
+				<div class="col-md-12 to-animate text-center">
+					{{ with .Site.Params.video.youtubeIframe }}{{ . | markdownify }}{{ end }}
+				</div>
+
+			</div>
+		</div>
+	</section>

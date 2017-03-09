@@ -20,7 +20,7 @@ theme = "hugo-elate-theme"
     sponsors = "Sponsors"
     chart = "Attendance"
     location = "Location"
-    contact = "Get In Touch"
+    video = "This is CS50"
 
     # prepended links
     #[[menu.prepend]]
@@ -53,7 +53,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "Who teaches CS50?"
-      description = "The course is taught by professor <a href=\"https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)\"> David J. Malan </a><br><br>Email: malan@harvard.edu"
+      description = "The course is taught by professor <a href=\"https://en.wikipedia.org/wiki/David_Malan_(computer_scientist)\"> David J. Malan </a>,<br>you will meet him at the event!<br>Email: malan@harvard.edu"
       icon = "icon-book-open"
 
     [[params.faq.item]]
@@ -275,18 +275,10 @@ theme = "hugo-elate-theme"
       speed = 5000
 
   # Contact section
-  [params.contact]
-    enable = false
-    title = "Get in touch"
-    description = "For any question, feedback or sponsorship proposal, feel free to contact us!"
-
-    # Available icons: http://simplelineicons.com/
-
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+  [params.video]
+    enable = true
+    title = "This is CS50"
+    youtubeIframe = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vpy_C36d_Eg\" frameborder=\"0\" allowfullscreen></iframe>"
 
   # Footer section
   [params.footer]

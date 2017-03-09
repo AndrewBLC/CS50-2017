@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0s;
   transition: 0s;
 }
-        
+
 #fh5co-home {
   background-color: transparent;
   background-size: cover;
@@ -609,11 +609,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
+#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-video, #fh5co-location {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
+  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-video, #fh5co-location {
     padding: 2em 0;
   }
 }
@@ -1073,14 +1073,14 @@ background: #a41034;
   outline: none;
 }
 
-#fh5co-contact {
+#fh5co-video {
   padding-bottom: 0;
 }
-#fh5co-contact .fh5co-contact-info {
+#fh5co-video .fh5co-video-info {
   padding: 0;
   margin: 0 0 1.5em 0;
 }
-#fh5co-contact .fh5co-contact-info li {
+#fh5co-video .fh5co-video-info li {
   font-size: 17px;
   position: relative;
   padding: 0;
@@ -1088,7 +1088,7 @@ background: #a41034;
   padding-left: 50px;
   list-style: none;
 }
-#fh5co-contact .fh5co-contact-info li i {
+#fh5co-video .fh5co-video-info li i {
   position: absolute;
   top: .2em;
   left: 0;
