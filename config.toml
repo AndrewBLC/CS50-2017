@@ -274,7 +274,7 @@ theme = "hugo-elate-theme"
       interval = 50
       speed = 5000
 
-  # Contact section
+  # video section
   [params.video]
     enable = true
     title = "This is CS50"

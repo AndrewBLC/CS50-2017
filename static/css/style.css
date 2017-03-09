@@ -1094,6 +1094,13 @@ background: #a41034;
   left: 0;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-video iframe {
+    width: 304px;
+    height: 171px;
+  }
+}
+
 .section-heading {
   float: left;
   width: 100%;
