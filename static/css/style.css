@@ -969,6 +969,16 @@ background: #a41034;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+#fh5co-sponsors .fh5co-sponsor-img {
+  max-width: 400px;
+  width: 100%;
+  margin: 15px auto 50px auto;
+}
+#fh5co-sponsors .fh5co-sponsor-img-hardware {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+}
 #fh5co-sponsors .fh5co-sponsor-item .fh5co-text h2, #fh5co-sponsors .fh5co-sponsor-item .fh5co-text span {
   text-decoration: none !important;
 }
