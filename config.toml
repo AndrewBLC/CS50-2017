@@ -182,14 +182,14 @@ theme = "hugo-elate-theme"
       link = "http://www.harvard.edu/"
 
     [[params.sponsors.partner]]
-      img = "landing.png"
-      alt = "The Landing"
-      link = "http://www.thelanding.org.uk/"
-
-    [[params.sponsors.partner]]
       img = "uom.png"
       alt = "The University of Manchester, School of Computer Science"
       link = "http://www.cs.manchester.ac.uk/"
+
+    [[params.sponsors.partner]]
+      img = "landing.png"
+      alt = "The Landing"
+      link = "http://www.thelanding.org.uk/"
 
     [[params.sponsors.hardware]]
       img = "google.png"
