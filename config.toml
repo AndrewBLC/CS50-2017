@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "What is CS50?"
-      description = "CS50 is Harvard and Yale Uniersities' introduction to computer science for concentrators and non-concentrators alike, with or without prior programming experience."
+      description = "CS50 is Harvard and Yale Universities' introduction to computer science for concentrators and non-concentrators alike, with or without prior programming experience."
       icon = "icon-graduation"
 
 
@@ -73,7 +73,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "Are tickets free?"
-      description = "Tickets are free for Manchester students. For everyone else, the ticket costs £50 and it includes an awesome \"I took CS50\" t-shirt. <a href=\"https://www.picatic.com/cs50-hackathon-manchester\">Get you ticket now!</a>"
+      description = "Tickets are free for Manchester students. For everyone else, the ticket costs £50 and it includes an awesome \"I took CS50\" t-shirt. <a href=\"https://www.picatic.com/cs50-hackathon-manchester\">Get your ticket now!</a>"
       icon = "icon-wallet"
 
     [[params.faq.item]]
@@ -250,7 +250,7 @@ theme = "hugo-elate-theme"
   [params.video]
     enable = true
     title = "This is CS50"
-    youtubeIframe = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vpy_C36d_Eg\" frameborder=\"0\" allowfullscreen></iframe>"
+    youtubeIframe = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5dFxQRcsKpw\" frameborder=\"0\" allowfullscreen></iframe>"
 
   # Footer section
   [params.footer]
