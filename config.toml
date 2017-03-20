@@ -191,6 +191,11 @@ theme = "hugo-elate-theme"
       alt = "The Landing"
       link = "http://www.thelanding.org.uk/"
 
+    [[params.sponsors.partner]]
+      img = "webapps.png"
+      alt = "WebApplicationsUk"
+      link = "https://www.webapplicationsuk.com"
+
     [[params.sponsors.hardware]]
       img = "google.png"
       alt = "Google"

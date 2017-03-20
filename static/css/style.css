@@ -970,9 +970,9 @@ background: #a41034;
   transition: 0.3s;
 }
 #fh5co-sponsors .fh5co-sponsor-img {
-  max-width: 400px;
-  width: 100%;
-  margin: 15px auto 50px auto;
+  max-width: 70%;
+  max-height: 100%;
+  margin: auto;
 }
 #fh5co-sponsors .fh5co-sponsor-img-hardware {
   max-width: 300px;

@@ -10,18 +10,27 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="row">
+
 			        {{ range .Site.Params.sponsors.partner }}
-			        	<div class="row">
-			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
-			        			<img src="images/{{ .img }}" alt="{{ .alt }}" class="fh5co-sponsor-img img-responsive">
-			        		</a>
-			        	</div>
+			        	
+
+								<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
+									<div class="col-md-6" style="height: 300px; margin: 50px 0; background: url(images/{{ .img }}) no-repeat center center; background-size: 300px;">
+
+									</div>
+								</a>
 
 			        	<div class="clearfix visible-sm-block"></div>
 			        {{ end }}
+
+
+							</div>
                 <div class="row row-bottom-padded-sm hardware-sponsor text-center">
                 	<p class="to-animate" style="font-size: 130%"> Hardware Sponsor </p>
                 <div class="col-md-4"></div>
+
 			        {{ range .Site.Params.sponsors.hardware }}
 			        	<div class="col-md-4 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
