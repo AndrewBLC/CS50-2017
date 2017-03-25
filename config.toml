@@ -88,87 +88,62 @@ theme = "hugo-elate-theme"
 
   # Schedule section
   [params.schedule]
-    enable = false
+    enable = true
     title = "Schedule"
 
-    [[params.schedule.friday]]
-      time = "18:00"
-      name = "Registration opens"
-
-    [[params.schedule.friday]]
-      time = "19:00"
-      name = "Dinner"
-
-    [[params.schedule.friday]]
-      time = "20:30"
-      name = "Opening ceremony"
-
-    [[params.schedule.friday]]
-      time = "22:00"
-      name = "Hacking starts<br>Team forming session"
-
+    [[params.schedule.saturday]]
+      time = "12:00"
+      [[ params.schedule.saturday.event]]
+        name = "Check in"
+        description = "Check in on floor 2, grab food, head to floor 6, decide where to sit, connect to Wi-Fi."
 
     [[params.schedule.saturday]]
-      time = "00:00"
-      name = "Midnight snack"
+      time = "12:30"
+      [[ params.schedule.saturday.event]]
+        name = "Welcome ceremony"
+        description = "Hosted by someone you may have heard of..."
 
     [[params.schedule.saturday]]
-      time = "08:00"
-      name = "Breakfast"
+      time = "12:45"
+      [[ params.schedule.saturday.event]]
+        name = "A quick introduction to computer science"
+        description = "A seminar by David in room #TBD based on CS50's own first week, intended particularly for those with little or no CS experience (yet)!"
 
     [[params.schedule.saturday]]
-      time = ""
-      name = "-- Workshops --"
+      time = "13:30"
+      [[ params.schedule.saturday.event]]
+        name = "An introduction into how to architect, build, and deploy frontend-only applications"
+        description = "A seminar by Luke on floor 3."
+      [[ params.schedule.saturday.event]]
+        name = "Learning to Program with Python"
+        description = "A seminar by Doug and Erin on floor 4."
 
     [[params.schedule.saturday]]
-      time = "13:00"
-      name = "Lunch"
+      time = "14:15"
+      [[ params.schedule.saturday.event]]
+        name = "Falling in LÖVE with Lua"
+        description = "A seminar by Colton on floor 3 on game development (a la Super Mario Bros.!)."
+      [[ params.schedule.saturday.event]]
+        name = "An introduction into how to architect, build, and deploy frontend-only applications"
+        description = "Another seminar by Luke on floor 3 identical to that at 1:30pm."
 
     [[params.schedule.saturday]]
-      time = ""
-      name = "-- Workshops --"
+      time = "15:00"
+      [[ params.schedule.saturday.event]]
+        name = "Falling in LÖVE with Lua, continued"
+        description = "A follow-on seminar by Colton on floor 3 on game development (a la Super Mario Bros.!)."
+      [[ params.schedule.saturday.event]]
+        name = "Intro to C#"
+        description = "A seminar by WebApps UK on floor 4."
 
     [[params.schedule.saturday]]
-      time = "19:00"
-      name = "Dinner"
-
-    [[params.schedule.saturday]]
-      time = "21:00"
-      name = "MLH event"
-
-
-    [[params.schedule.sunday]]
-      time = "00:00"
-      name = "Midnight snack"
-
-    [[params.schedule.sunday]]
-      time = "08:00"
-      name = "Breakfast"
-
-    [[params.schedule.sunday]]
-      time = "10:00"
-      name = "Hacking ends"
-
-    [[params.schedule.sunday]]
-      time = "11:00"
-      name = "Judging starts"
-
-    [[params.schedule.sunday]]
-      time = "13:00"
-      name = "Lunch"
-
-    [[params.schedule.sunday]]
-      time = "14:00"
-      name = "Final presentations"
-
-    [[params.schedule.sunday]]
-      time = "16:00"
-      name = "Closing ceremony"
-
-    [[params.schedule.sunday]]
-      time = "17:00"
-      name = "End of the event"
-
+      time = "15:45"
+      [[ params.schedule.saturday.event]]
+        name = "Falling in LÖVE with Lua"
+        description = "another seminar by Colton on floor 3 on game development (a la Super Mario Bros.!) identical to that at 2:15pm."
+      [[ params.schedule.saturday.event]]
+        name = "Google Tango and computer vision"
+        description = "A seminar by HackSoc on floor 4."
 
   # Sponsors section
   [params.sponsors]

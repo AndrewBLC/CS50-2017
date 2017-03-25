@@ -6,48 +6,32 @@
 				</div>
 			</div>
 			<div class="row">
-			        <div class="col-md-4 to-animate">
-                                        <table cellspacing='0'>
-                                                <caption>Friday</caption>
-                                                <tbody>
-			                        {{ range .Site.Params.schedule.friday }}
-		                                        <tr>
-                                                                <td>{{ .time | markdownify}}</td>
-                                                                <td>{{ .name | markdownify}}</td>
-                                                                <td></td>
-                                                        </tr>
-			                        {{ end }}
-                                                </tbody>
-                                        </table>
-                                </div>
-			        <div class="col-md-4 to-animate text-center">
-                                        <table cellspacing='0'>
-                                                <caption>Saturday</caption>
-                                                <tbody>
-			                        {{ range .Site.Params.schedule.saturday }}
-		                                        <tr>
-                                                                <td>{{ .time | markdownify}}</td>
-                                                                <td>{{ .name | markdownify}}</td>
-                                                                <td></td>
-                                                        </tr>
-			                        {{ end }}
-                                                </tbody>
-                                        </table>
-                                </div>
-			        <div class="col-md-4 to-animate text-center">
-                                        <table cellspacing='0'>
-                                                <caption>Sunday</caption>
-                                                <tbody>
-			                        {{ range .Site.Params.schedule.sunday }}
-		                                        <tr>
-                                                                <td>{{ .time | markdownify}}</td>
-                                                                <td>{{ .name | markdownify}}</td>
-                                                                <td></td>
-                                                        </tr>
-			                        {{ end }}
-                                                </tbody>
-                                        </table>
-                                </div>
+			        <div class="col-md-2"></div>
+			        <div class="col-md-8 to-animate text-center">
+		            <table cellspacing='0' style="width: 100%">
+	                <tbody>
+	{{ range .Site.Params.schedule.saturday }}
+				            <tr>
+			                <td style="text-align: center;">
+												<h3 style="color: #f6f6f6;">
+													{{ .time | markdownify }}
+												</h3>
+												<table cellspacing='0' style="width: 100%; font-size: 110%; border: none;">
+													<tr>
+														{{ range .event }}
+															<td style="text-align: center; border: none; width: 50%;">
+																<b>{{ .name | markdownify }}</b><br /><br />{{ .description | markdownify }}
+															</td>
+														{{ end }}
+													</tr>
+												</table>
+											</td>
+				            </tr>
+	{{ end }}
+	                </tbody>
+		            </table>
+              </div>
+			        <div class="col-md-2"></div>
 			</div>
 		</div>
 	</section>
